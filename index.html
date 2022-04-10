@@ -5,12 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>⚡️ Sass Flexbox Layout with Fixed Sidebar</title>
-    <link rel="icon" href="./dist//images//logo.png" type="image/png" />
+    <link rel="icon" href="./dist/images/logo.png" type="image/png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
     />
+
     <link rel="stylesheet" href="./dist/styles/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="layout">
+      <div class="layout__sidebar">
+        <div class="layout__sidebar__logo">
+          <img src="./dist/images/logo.png" alt="logo" />
+          <div class="layout__sidebar__logo__text">Flexbox Layout</div>
+        </div>
+        <ul class="layout__sidebar__menu">
+          <li>Home</li>
+          <li>About</li>
+          <li>Support</li>
+          <li>Contact</li>
+        </ul>
+        <div class="layout__sidebar__logout">
+          <a href="javascript:;">Logout</a>
+        </div>
+      </div>
+      <!-- layout__sidebar -->
+      <div class="layout__wrapper">
+        <div class="layout__header">
+          <ul class="layout__header__menu__left">
+            <li><a href="javascript:;">Menu #1</a></li>
+            <li><a href="javascript:;">Menu #2</a></li>
+            <li><a href="javascript:;">Menu #3</a></li>
+          </ul>
+
+          <ul class="layout__header__menu__right">
+            <li><a href="javascript:;">Menu #1</a></li>
+            <li><a href="javascript:;">Menu #2</a></li>
+          </ul>
+        </div>
+        <!-- layout__header -->
+        <div class="layout__container">
+          <div class="layout__content"></div>
+        </div>
+        <!-- layout__container -->
+        <div class="layout__footer">#footer</div>
+        <!-- layout__footer -->
+      </div>
+      <!-- layout__wrapper -->
+    </div>
+    <!-- layout -->
+  </body>
 </html>
