@@ -6,10 +6,6 @@ A simple template made with Sass, flexbox and fixed sidebar support.
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-## Preview
-
-_It will be added later._
-
 ## Resources
 
 - [https://sass-lang.com/](https://sass-lang.com/)
